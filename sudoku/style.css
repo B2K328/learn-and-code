@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    border-spacing: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url("images/background.jpeg");
+    background-size: cover;
+}
+table{
+    margin: 20px auto;
+
+}
+tr {
+    border-bottom: 1px solid #ccc;
+    display: block;
+}
+/*me permet d'ajouter un style particulier a chaque 3eme ligne*/
+tr:nth-of-type(3),
+tr:nth-of-type(6){
+    border-bottom: black solid 1px;
+}
+td:nth-of-type(3),
+td:nth-of-type(6){
+    border-right: black solid 1px;
+}
+input {
+    height: calc(100vh/11);
+    width: calc(100vh/11);
+    border: 1px solid #ccc;
+    font-size: 8vh;
+    text-align: center;
+    appearance: textfield;
+    background-color:#efefef;
+    font-family: Elegant Serif, serif;
+}
+input:invalid,
+.invalid{
+    background-color: #ffc2c2;
+    border: #fc3232 1px solid;
+}
+#button-verified {
+    margin: 1em auto 0;
+    display: block;
+    padding: .5em 2em;
+    font-size: 3vh;
+}
+input[readonly] {
+    color: blue;
+}
