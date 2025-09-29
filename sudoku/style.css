@@ -43,7 +43,8 @@ input:invalid,
     background-color: #ffc2c2;
     border: #fc3232 1px solid;
 }
-#button-verified {
+#button-verified,
+#button-resolved{
     margin: 1em auto 0;
     display: block;
     padding: .5em 2em;
