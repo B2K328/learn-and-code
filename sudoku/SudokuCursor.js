@@ -1,7 +1,7 @@
 class SudokuCursor{
     constructor(){
-        this.line=8
-        this.column=8
+        this.line=0
+        this.column=0
         this.step='advance'
     }
     //progress permet de faire progresser le curseur selon d'etat de marche,
